@@ -15,13 +15,13 @@ If this plugin is used with Wordpress versions earlier than 2.2 and a widget imp
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == How To Use ==
-**Template Tag (Non Widget)**
+**Template Tag (Non Widget)**  
 To use the plugin simply put the following code in the place you want the link to appear:  
 * <?php if(function_exists(googletoolbar)) : googletoolbar(link text); endif; ?>  
 Replace link text with the words you want to appear as your link.  For example, if you want your link to read "Add to Google Toolbar" you would put in the following:  
 * <?php if(function_exists(googletoolbar)) : googletoolbar('Add to Google Toolbar'); endif; ?>  
 
-**Widget**
+**Widget**  
 1. Go to Presentation->Sidebar Widgets in your admin interface.
 2. Drag and drop the Google Toolbar widget from the Available Widgets section to where you want it on your sidebar.
 3. Click the configure icon to open the options for this widget.
@@ -33,5 +33,5 @@ Replace link text with the words you want to appear as your link.  For example, 
 
 After the page reloads view your site.  The Google Toolbar link will appear in your sidebar with your selected options.
 
-**Options Page**
+**Options Page**  
 A page exists under Options->Google Toolbar.  This page allows you to change the name of the XML file that the plugin creates to add your blog to the Google Toolbar and/or to attach a specific image file to use as an icon for your blog in the toolbar (if you don't specify an icon then the Google Toolbar will use a generic icon).
