@@ -16,10 +16,9 @@ If this plugin is used with Wordpress versions earlier than 2.2 and a widget imp
 
 == How To Use ==
 ###Template Tag (Non Widget)
-To use the plugin simply put the following code in the place you want the link to appear:  
-<?php if(function_exists(googletoolbar)) : googletoolbar(link text); endif; ?>
+To use the plugin simply put the following code in the place you want the link to appear: `<?php if(function_exists(googletoolbar)) : googletoolbar(link text); endif; ?>`  
 Replace link text with the words you want to appear as your link.  For example, if you want your link to read "Add to Google Toolbar" you would put in the following:  
-`<?php googletoolbar('Add to Google Toolbar'); ?>`
+`<?php if(function_exists(googletoolbar)) : googletoolbar('Add to Google Toolbar'); endif; ?>`  
 
 ###Widget
 1. Go to Presentation->Sidebar Widgets in your admin interface.
