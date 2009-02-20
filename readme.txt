@@ -1,4 +1,6 @@
 === Plugin Name ===
+Contributors: David Goldstein
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3396118
 Tags: google toolbar
 Requires at least: 1.5
 Tested up to: 2.3
